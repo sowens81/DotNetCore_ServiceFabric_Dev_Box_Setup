@@ -1,6 +1,15 @@
-
-
-
+#Requires -Version 3.0
+<#
+    .DESCRIPTION
+        This script will install Chocolatey packages, VSCode Extensions and Visual Studio 2019 Extensions onto a Windows OS.
+        The script must be run with elevated admin permissions for PowerShell.
+        The script must be run in the same directory as the configuration files, see GIT Repo readme for more details.
+    
+    .NOTES
+        AUTHOR: Steve Owens
+        LASTEDIT: Sep 21, 2020
+        VERSION: 1.0.0.1
+#>
 
 function InstallVSExtension 
 {
