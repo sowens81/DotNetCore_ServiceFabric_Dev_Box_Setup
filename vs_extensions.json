@@ -1,0 +1,13 @@
+[
+    {
+        "ExtensionName": "PowerShell Tools for Visual Studio",
+        "FileName": "PowerShellTools.vsix",
+        "DownloadURL": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/AdamRDriscoll/vsextensions/PowerShellToolsforVisualStudio2017-18561/5.6.1/vspackage"
+    },
+    {
+        "ExtensionName": "SpecFlow for Visual Studio 2019",
+        "FileName": "TechTalk.SpecFlow.VisualStudioIntegration.vsix",
+        "DownloadURL": "https://marketplace.visualstudio.com/_apis/public/gallery/publishers/TechTalkSpecFlowTeam/vsextensions/SpecFlowForVisualStudio/2019.0.62.21993/vspackage"
+    }
+]
+
