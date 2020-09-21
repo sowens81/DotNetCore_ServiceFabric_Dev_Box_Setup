@@ -27,7 +27,7 @@ function InstallVSExtension
 choco install packages.config -y
 
 # Install VS Code Extensions
-code --install-extension extensions.txt
+code --install-extension vscode_extensions.txt
 
 # Install Visual Studio 2019 Extensions
 $VSES = (Get-Content vs_extensions.json| ConvertFrom-Json)
