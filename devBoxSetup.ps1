@@ -57,16 +57,16 @@ function InstallVSExtension
 }
 
 # Install Chocolatey Packages
-#choco install packages.config -y
+choco install packages.config -y
 
 # Install VS Code Extensions
-#code --install-extension vscode_extensions.txt
+code --install-extension vscode_extensions.txt
 
 # Install Visual Studio 2019 Extensions
-#$VSES = (Get-Content vs_extensions.json| ConvertFrom-Json)
+$VSES = (Get-Content vs_extensions.json| ConvertFrom-Json)
 
-#foreach ($VSE in $VSES)
-#{
-#    InstallVSExtension -ExtensionName $VSE.ExtensionName -FileName $VSE.FileName -DownloadURL $VSE.DownloadURL
-#}
+foreach ($VSE in $VSES)
+{
+    InstallVSExtension -ExtensionName $VSE.ExtensionName -FileName $VSE.FileName -DownloadURL $VSE.DownloadURL
+}
 
